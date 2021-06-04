@@ -12,3 +12,7 @@ echo "Result of Expression2  {a*b+c} is::"$Expression2
 
 Expression3=$(($c+$(($a/$b))))
 echo "Result of Expression3  {c+a/b} is::"$Expression3
+
+Expression4=$(($(($a%$b))+$c))
+echo "Result of Expression4  {a%b+c} is::"$Expression4
+
