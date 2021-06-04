@@ -5,4 +5,7 @@ read -p "Enter Second number:" b
 read -p "Enter Third number:" c
 
 Expression1=$(($a+$(($b*$c))))
-echo "Result of Expression1 is::"$Expression1
+echo "Result of Expression1 {a+b*c} is::"$Expression1
+
+Expression2=$(($(($a*$b))+$c))
+echo "Result of Expression2  {a*b+c} is::"$Expression2
