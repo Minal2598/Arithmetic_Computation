@@ -30,4 +30,8 @@ echo "Array:"${arr[@]}
 
 echo "Dictionary" ${Arithmetic[@]}
 
-printf '%s\n' "${arr[@]}" | sort -nr
+echo "result in Descending order::"
+printf '%s\n' "${arr[@]}" | sort  -nr
+
+echo "result in Ascending order::"
+printf '%s\n' "${arr[@]}" | sort  -n
