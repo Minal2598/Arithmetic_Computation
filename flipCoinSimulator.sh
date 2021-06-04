@@ -1,1 +1,1 @@
-echo "Welcome to Flip Coin Simulation "
+echo "Welcome to Flip Coin Simulation"
